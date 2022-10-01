@@ -30,7 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         onboardingController.delegate = self
         dummyViewController.logoutDelegate = self
         
-        window?.rootViewController = mainViewController
+//        window?.rootViewController = mainViewController
+        window?.rootViewController = AccountSummaryViewController()
         
         // Override point for customization after application launch.
         return true
