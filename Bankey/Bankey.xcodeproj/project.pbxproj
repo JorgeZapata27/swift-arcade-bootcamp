@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78CC887428E69671003DB6D0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC887328E69671003DB6D0 /* LoginView.swift */; };
+		78CC887728E7F8B6003DB6D0 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC887628E7F8B6003DB6D0 /* OnboardingContainerViewController.swift */; };
 		78CEF95928E68F2300F9BA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CEF95828E68F2300F9BA70 /* AppDelegate.swift */; };
 		78CEF95D28E68F2300F9BA70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CEF95C28E68F2300F9BA70 /* LoginViewController.swift */; };
 		78CEF96328E68F2300F9BA70 /* Bankey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CEF96128E68F2300F9BA70 /* Bankey.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		78CC887328E69671003DB6D0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		78CC887628E7F8B6003DB6D0 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		78CEF95528E68F2300F9BA70 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CEF95828E68F2300F9BA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CEF95C28E68F2300F9BA70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		78CC887528E7F884003DB6D0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				78CC887628E7F8B6003DB6D0 /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		78CEF94C28E68F2300F9BA70 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				78CC887228E69642003DB6D0 /* Login */,
+				78CC887528E7F884003DB6D0 /* Onboarding */,
 				78CEF95828E68F2300F9BA70 /* AppDelegate.swift */,
 				78CC887128E695E3003DB6D0 /* Files */,
 			);
@@ -276,6 +287,7 @@
 				78CEF95D28E68F2300F9BA70 /* LoginViewController.swift in Sources */,
 				78CEF96328E68F2300F9BA70 /* Bankey.xcdatamodeld in Sources */,
 				78CC887428E69671003DB6D0 /* LoginView.swift in Sources */,
+				78CC887728E7F8B6003DB6D0 /* OnboardingContainerViewController.swift in Sources */,
 				78CEF95928E68F2300F9BA70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
