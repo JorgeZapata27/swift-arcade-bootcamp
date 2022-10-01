@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
 //        window?.rootViewController = LoginViewController()
-        window?.rootViewController = OnboardingContainerViewController()
+        window?.rootViewController = OnboardingViewController()
         
         // Override point for customization after application launch.
         return true
